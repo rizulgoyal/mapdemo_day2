@@ -13,6 +13,8 @@
 		E0B6B95A23C912E700922859 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B6B95823C912E700922859 /* Main.storyboard */; };
 		E0B6B95C23C912E900922859 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0B6B95B23C912E900922859 /* Assets.xcassets */; };
 		E0B6B95F23C912E900922859 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0B6B95D23C912E900922859 /* LaunchScreen.storyboard */; };
+		E0B6B96923C9142D00922859 /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0B6B96823C9142C00922859 /* Places.plist */; };
+		E0B6B96B23C9150000922859 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B6B96A23C9150000922859 /* Place.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E0B6B95B23C912E900922859 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0B6B95E23C912E900922859 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0B6B96023C912E900922859 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0B6B96823C9142C00922859 /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Places.plist; path = "../../../Downloads/Session 2 Materials-20200110/Places.plist"; sourceTree = "<group>"; };
+		E0B6B96A23C9150000922859 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				E0B6B95223C912E700922859 /* AppDelegate.swift */,
 				E0B6B95423C912E700922859 /* SceneDelegate.swift */,
+				E0B6B96823C9142C00922859 /* Places.plist */,
 				E0B6B95623C912E700922859 /* ViewController.swift */,
 				E0B6B95823C912E700922859 /* Main.storyboard */,
 				E0B6B95B23C912E900922859 /* Assets.xcassets */,
 				E0B6B95D23C912E900922859 /* LaunchScreen.storyboard */,
 				E0B6B96023C912E900922859 /* Info.plist */,
+				E0B6B96A23C9150000922859 /* Place.swift */,
 			);
 			path = mapdemo_day2;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0B6B95F23C912E900922859 /* LaunchScreen.storyboard in Resources */,
+				E0B6B96923C9142D00922859 /* Places.plist in Resources */,
 				E0B6B95C23C912E900922859 /* Assets.xcassets in Resources */,
 				E0B6B95A23C912E700922859 /* Main.storyboard in Resources */,
 			);
@@ -141,6 +148,7 @@
 				E0B6B95723C912E700922859 /* ViewController.swift in Sources */,
 				E0B6B95323C912E700922859 /* AppDelegate.swift in Sources */,
 				E0B6B95523C912E700922859 /* SceneDelegate.swift in Sources */,
+				E0B6B96B23C9150000922859 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
